@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
 
-const footer = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const Footer = () => {
+	return (
+		<div>
+			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div className="container">
+					<a className="navbar-brand" href="#">
+						Copyright
+					</a>
 
-export default footer
+					<div className=" my-2 my-lg-0" id="navbarNavAltMarkup">
+						<div className="navbar-nav"></div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	);
+};
+
+export default Footer;
