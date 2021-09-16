@@ -4,8 +4,8 @@ const Footer = () => {
 	return (
 		<div>
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-				<div className="container">
-					<a className="navbar-brand" href="#">
+				<div className="container justify-content-center ">
+					<a className="navbar-brand text-center" href="#">
 						Copyright
 					</a>
 

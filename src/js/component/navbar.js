@@ -5,7 +5,7 @@ const Navbar = () => {
 		<div>
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 				<a className="navbar-brand" href="#">
-					Navbar
+					Start Bootstrap
 				</a>
 				<button
 					className="navbar-toggler"
@@ -17,8 +17,10 @@ const Navbar = () => {
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarNav">
-					<ul className="navbar-nav">
+				<div
+					className="collapse navbar-collapse justify-content-end"
+					id="navbarNav">
+					<ul className="navbar-nav ">
 						<li className="nav-item active">
 							<a className="nav-link" href="#">
 								Home <span className="sr-only">(current)</span>
@@ -26,12 +28,12 @@ const Navbar = () => {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Features
+								About
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Pricing
+								Services
 							</a>
 						</li>
 						<li className="nav-item">
@@ -40,7 +42,7 @@ const Navbar = () => {
 								href="#"
 								tabIndex="-1"
 								aria-disabled="true">
-								Disabled
+								Contact
 							</a>
 						</li>
 					</ul>
